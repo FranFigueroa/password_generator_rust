@@ -17,7 +17,7 @@ Genera contraseñas seguras y personalizables directamente desde tu terminal con
 Primero, clona el repositorio y navega a la carpeta del proyecto:
 
 ```bash
-git clone https://github.com/tuusuario/password_generator.git
+git clone https://github.com/FranFigueroa/password_generator.git
 cd password_generator
 
 cargo build --release
