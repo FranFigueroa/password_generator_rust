@@ -1,1 +1,26 @@
- La idea es que el usuario pueda especificar la longitud y el tipo de caracteres que desea (letras, números, símbolos).
+# 🔐 Password Generator CLI in Rust
+
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Rust](https://img.shields.io/badge/Rust-Edition%202021-informational)
+![Version](https://img.shields.io/badge/version-0.1.0-green)
+
+Genera contraseñas seguras y personalizables directamente desde tu terminal con este generador de contraseñas en Rust. Este proyecto CLI permite crear contraseñas con letras, números y símbolos, configurando la longitud y los tipos de caracteres.
+
+## 🚀 Características
+
+- **Personalización de longitud**: Elige la longitud de la contraseña.
+- **Incluir números**: Opción para agregar números a la contraseña.
+- **Incluir símbolos**: Opción para agregar símbolos para mayor seguridad.
+
+## 📦 Instalación
+
+Primero, clona el repositorio y navega a la carpeta del proyecto:
+
+```bash
+git clone https://github.com/tuusuario/password_generator.git
+cd password_generator
+
+cargo build --release
+
+cargo run -- --length <LONGITUD> [--numbers] [--symbols]
+ 
